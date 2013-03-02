@@ -56,10 +56,10 @@ apache::vhost { $fqdn:
 }
 a2mod { 'rewrite': ensure => present }
 
-## LARAVEL
-#class { "laravel":
-#  root  => "${docroot}/src"
-#}
+## Codeigniter
+class { "codeigniter":
+  root  => "${docroot}/src"
+}
 
 ## Ruby
 class { "ruby": 
