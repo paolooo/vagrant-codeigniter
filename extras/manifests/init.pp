@@ -57,9 +57,9 @@ apache::vhost { $fqdn:
 a2mod { 'rewrite': ensure => present }
 
 ## LARAVEL
-class { "laravel":
-  root  => "${docroot}/src"
-}
+#class { "laravel":
+#  root  => "${docroot}/src"
+#}
 
 ## Ruby
 class { "ruby": 
