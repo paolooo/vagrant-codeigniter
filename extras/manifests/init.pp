@@ -79,7 +79,12 @@ pear::package { "PEAR": }
 pear::package { "PHPUnit": 
   version     => "latest",
   repository  => "pear.phpunit.de",
-  require     => Pear::Package["PEAR"],
+  require     => Pear::Package["PEAR"]
+}
+pear::package { "Yaml": 
+  version     => "latest",
+  repository  => "pear.symfony.com",
+  require     => Pear::Package["PEAR"]
 }
 
 ## DB
