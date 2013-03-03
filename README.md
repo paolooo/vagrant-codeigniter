@@ -1,5 +1,5 @@
-Vagrant LAMP
-============
+Vagrant CodeIgniter
+===================
 by Nino Paolo Amarillento
 
 

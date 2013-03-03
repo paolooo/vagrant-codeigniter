@@ -56,7 +56,7 @@ Vagrant::Config.run do |config|
   #
   config.vm.provision :puppet do |puppet|
     puppet.facter = {
-      "fqdn"      => "dev.laravel.mysql",
+      "fqdn"      => "dev.codeigniter.lcl",
       "hostname"  => "www",
       "docroot"   => "/vagrant/www",
       "host"      => 'localhost',
